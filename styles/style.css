@@ -1,0 +1,26 @@
+* {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Work Sans", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+/* navbar content style start */
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(91, 88, 88);
+    padding: 20px;
+}
+.menus{
+    display: flex;
+    gap:20px;
+}
+.menus li{
+    list-style: none;
+    color: white;
+    cursor: pointer;
+}
+/* navbar content style end */
+
