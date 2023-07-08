@@ -27,7 +27,7 @@
 /* Banner content start from here */
 .banner-container{
     height: 100vh;
-    background-image: url('../asset/image/background.jpg'),linear-gradient(rgba(7, 10, 13, 35),rgba(16, 14, 14,55));
+    background-image: url('../asset/image/background.jpg'),linear-gradient(rgba(0, 0, 0, 0.664),rgba(0, 0, 0, 0.823));
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -56,3 +56,68 @@
     color: brown;
 }
 /* Banner content end */
+
+/* main content services start */
+.service-container{
+    height: 100vh;
+    background-image: url('../asset/image/footer-bg.png'),linear-gradient(rgba(0, 0, 0, 0.664),rgba(0, 0, 0, 0.823));
+    padding:50px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.profile .author-pic{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.left-content{
+    width: 600px;
+}
+.info{
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    padding: 50px;
+    text-align: center;
+    border-radius: 5px;
+    
+}
+.info img{
+    width: 80px;
+    height: 80px;
+}
+/* .title{
+    text-align: center;
+} */
+.content1{
+    display: flex;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+}
+.content2{
+    margin-top: 10px;
+    display: flex;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+.profile-btn{
+    background-color: #fff;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+.smith{
+    border-right: 3px solid red;
+    padding-right: 20px;
+}
+/* main content services end */
