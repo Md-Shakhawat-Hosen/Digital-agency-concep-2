@@ -24,3 +24,35 @@
 }
 /* navbar content style end */
 
+/* Banner content start from here */
+.banner-container{
+    height: 100vh;
+    background-image: url('../asset/image/background.jpg'),linear-gradient(rgba(7, 10, 13, 35),rgba(16, 14, 14,55));
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.banner-content{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.btn-primary{
+    border: 0px;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+.btn{
+    background-color: brown;
+    color:white;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 50px;
+    font-family: poppins;
+}
+.especial{
+    color: brown;
+}
+/* Banner content end */
