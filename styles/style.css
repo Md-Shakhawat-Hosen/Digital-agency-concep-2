@@ -27,7 +27,8 @@
 /* Banner content start from here */
 .banner-container{
     height: 100vh;
-    background-image: url('../asset/image/background.jpg'),linear-gradient(rgba(0, 0, 0, 0.664),rgba(0, 0, 0, 0.823));
+    background-image: url('../asset/image/background.jpg'),linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4));
+    background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -60,7 +61,8 @@
 /* main content services start */
 .service-container{
     height: 100vh;
-    background-image: url('../asset/image/footer-bg.png'),linear-gradient(rgba(0, 0, 0, 0.664),rgba(0, 0, 0, 0.823));
+    background-image: url('../asset/image/footer-bg.png'),linear-gradient(rgba(1, 1, 1, 0.756),rgba(0, 0, 0, 0.8));
+    background-blend-mode: overlay;
     padding:50px 100px;
     display: flex;
     justify-content: space-between;
@@ -170,9 +172,12 @@
 .blog-news{
     width: 400px;
     box-shadow: 4px 4px 10px black;
+    border-radius: 5px;
 }
 .blog-news img{
     width: 400px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 .blog-info{
     padding: 20px;
